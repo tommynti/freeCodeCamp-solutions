@@ -1,0 +1,40 @@
+body{
+    background-color: burlywood;
+}
+
+.content {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.center-height {
+    height: 100vh;
+}
+
+.tweet :hover {
+    cursor: pointer;  
+}
+
+.quote-paragraph {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+}
+
+#author {
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.fa-quote-left {
+    opacity: 0.6;
+    margin-right: 12px;
+}
+.fa-quote-right {
+    opacity: 0.6;
+    margin-left: 12px;
+}
